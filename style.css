@@ -2,23 +2,34 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #fdfdfd;
   color: #333;
 }
 
 header {
   text-align: center;
-  background: #e0bbff;
   padding: 2rem 1rem;
+  background: linear-gradient(to bottom, #EB9EF6, #c1afc4);
 }
 
 header h1 {
   margin: 0;
+  font-family: 'Fleur De Leah';
+  font-size: 5em;
+  font-weight: 550;
 }
+
+header p {
+  font-family: 'Pompiere';
+  padding: 0rem;
+  font-size: 2em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
 
 main#gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 1rem;
   padding: 2rem;
 }
@@ -31,7 +42,27 @@ main img {
 }
 
 main img:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
+}
+
+#fullscreenModal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+#fullscreenModal img {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+#fullscreenModal.close {
+  display: none;
 }
 
 footer {
@@ -39,4 +70,24 @@ footer {
   padding: 1rem;
   background: #eee;
   font-size: 0.9rem;
+}
+
+.green {
+  background-color: #1E6D31;
+}
+
+.lilac {
+  background-color: #EB9EF6;
+}
+
+.dark_grey {
+  background-color: #606060;
+}
+
+.light_grey {
+  background-color: #DCDCDC;
+}
+
+.border {
+  min-height: 6px;
 }
