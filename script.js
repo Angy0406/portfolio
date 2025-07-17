@@ -196,3 +196,23 @@ images
     img.alt = "Hair styling work";
     gallery.appendChild(img);
   });
+
+const modal = document.getElementById('fullscreenModal');
+const fullscreenImage = document.getElementById('fullscreenImage');
+
+gallery.querySelectorAll('img').forEach(img => {
+  img.addEventListener('click', () => {
+    fullscreenImage.src = img.src;
+    modal.style.display = 'flex';
+  });
+});
+
+modal.addEventListener('click', () => {
+  modal.style.display = 'none';
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') {
+    modal.style.display = 'none';
+  }
+});
