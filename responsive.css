@@ -30,3 +30,10 @@
     height: auto;
   }
 }
+
+@media (max-width: 1000px) {
+  main#gallery {
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+  }
+}
