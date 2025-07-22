@@ -202,15 +202,15 @@ const images = [
     "date": "2025-07-22"
 },
 {
-    "file_name": "Blow_out_straight_blonde_back.jpg",
+    "file_name": "Blowout_straight_blonde_back.jpg",
     "date": "2025-07-22"
 },
 {
-    "file_name": "Blow_out_straight_blonde.jpg",
+    "file_name": "Blowout_straight_blonde.jpg",
     "date": "2025-07-22"
 },
 {
-    "file_name": "Blow_out_straight_blonde_right.jpg",
+    "file_name": "Blowout_straight_blonde_right.jpg",
     "date": "2025-07-22"
 }
 ]
