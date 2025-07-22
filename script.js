@@ -188,27 +188,27 @@ const images = [
 {
     "file_name": "Bun_daphne_bridgerton_right_sun.jpg",
     "date": "2025-07-19"
-}
+},
 {
     "file_name": "Spiral_braid_back.jpg",
     "date": "2025-07-22"
-}
+},
 {
     "file_name": "Spiral_braid_right.jpg",
     "date": "2025-07-22"
-}
+},
 {
     "file_name": "Spiral_braid_left.jpg",
     "date": "2025-07-22"
-}
+},
 {
     "file_name": "Blow_out_straight_blonde_back.jpg",
     "date": "2025-07-22"
-}
+},
 {
     "file_name": "Blow_out_straight_blonde.jpg",
     "date": "2025-07-22"
-}
+},
 {
     "file_name": "Blow_out_straight_blonde_right.jpg",
     "date": "2025-07-22"
