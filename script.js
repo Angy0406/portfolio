@@ -244,3 +244,7 @@ document.addEventListener('keydown', (event) => {
         modal.style.display = 'none';
     }
 });
+
+document.getElementById('closeModalBtn').onclick = function() {
+    document.getElementById('fullscreenModal').style.display = 'none';
+};
